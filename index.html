@@ -1,3 +1,34 @@
-<html>
-Hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenexa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css');
+
+    :root {
+      --background: hsl(284.6, 55.3%, 96.8%);
+      --foreground: hsl(277.6, 6.7%, 0.5%);
+      --primary: hsl(271, 85%, 56%);
+    }
+
+    .dark {
+      --background: hsl(222, 71%, 3.6%);
+      --foreground: hsl(228.9, 21.7%, 90%);
+    }
+
+    body {
+      background-color: var(--background);
+      color: var(--foreground);
+    }
+  </style>
+</head>
+<body class="h-screen flex items-center justify-center bg-background text-foreground">
+  <div class="text-center p-8 rounded-lg border border-border bg-card">
+    <h1 class="text-4xl font-bold mb-4 text-primary">Zenexa</h1>
+    <p class="text-lg">This is still being worked on. Please check back later.</p>
+  </div>
+</body>
 </html>
